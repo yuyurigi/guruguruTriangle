@@ -46,8 +46,6 @@ void setup() {
   
   //三角形の辺の中点を計算する
   PVector mp = calcMidPoint(vertex[vertex.length-1], vertex[vertex.length-2]);
-  //内接円の半径
-  float r = dist(center.x, center.y, mp.x, mp.y);
   //三角形の中心を計算する
   PVector tcenter = calcMidPoint(vertex[vertex.length-3], mp);
   //三角形の中心が画面の真ん中に来るよう移動するための数値
