@@ -16,7 +16,7 @@ float tr;
 void setup() {
   frameRate(240);
   size(800, 800);
-  background(241, 240, 238); //背景色
+  background(199, 193, 186); //背景色
   fill(0, 0, 0, 100); //線の色
   
   noStroke();
