@@ -26,8 +26,8 @@ void setup() {
   source.loadPixels();
 
   PVector center = new PVector(width/2, height/2);
-  float lastRadius = dist(center.x, center.y, 50, 50); // 最後の三角の大きさ（外接円の半径）
-  float rot = ((lastRadius) / addRadius ) * 90;
+  float lastRadius = dist(center.x, center.y, center.x, 30); // 最後の三角の大きさ（外接円の半径）
+  float rot = ((lastRadius) / addRadius ) * 120;
   
   Ac = new PVector();
 
